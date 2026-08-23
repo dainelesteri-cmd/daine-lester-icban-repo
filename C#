@@ -1,0 +1,21 @@
+using System;
+
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+			string name ="daine";
+			Console.WriteLine(name);
+		    int age = 19;
+			Console.WriteLine(age);
+			double price = 16.99;
+			Console.WriteLine(price);
+			char store = 'D';
+			Console.WriteLine(store);
+			bool myBool = true;
+			Console.WriteLine(myBool);
+
+			Console.WriteLine("Hi my name is "+ name +", and I am "+ age +" years old. I bought banana for a price of"+ price +", per kilo. The name of the store is "+ store +" and is it "+ myBool +" for its price");
+
+		}
+	}
